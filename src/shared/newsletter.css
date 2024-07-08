@@ -1,0 +1,48 @@
+.newsletter{
+    background-color: rgb(170, 250, 223);
+    padding: 0;
+    margin-top: 3rem;
+}
+.newsletter__img img{
+    width: 100%;
+}
+
+.newsletter__content{
+    padding: 50px 0;
+}
+
+.newsletter_title{
+    text-transform: capitalize;
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
+}
+
+.newsletter__content  p{
+    margin-top: 1.1rem;
+    color: var(--text-color);
+}
+.newsletter__input {
+    background-color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: .2rem;
+    border-radius: 10px;
+}   
+.newsletter__input input {
+    border: none;
+    width: 70%;
+    padding:0 10px;
+    font-size: 1.1rem;
+    color: var(--heading-color);
+    font-weight: 400;
+}
+.newsletter__input input:focus {
+    outline: none;
+}
+.newsletter__input button{
+    background-color: rgb(146, 131, 131);
+    color: #fff !important;
+    padding: 0.5rem 1.3rem !important;
+    border-radius: 10px;
+}

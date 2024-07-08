@@ -1,0 +1,41 @@
+.search__bar {
+    padding: 0.5rem 2rem;
+    border-radius: 35px;
+    box-shadow: rgba(14, 65, 45, .15) 0px 48px 100px 20px;
+    width: max-content;
+    margin-top: 25px;
+}
+
+.from__group span {
+    font-size: 2rem;
+    color: #ee6e6e;
+}
+
+.from__group input {
+    border: none;
+    font-size: 0.8rem;
+    color: var(--heading-color);
+    font-weight: 600;
+    margin: 2px;
+    padding: 2px;
+}
+
+.from__group input :focus {
+    outline: none;
+}
+
+.from__group-fast {
+    border-right: 2px solid #ddd;
+}
+
+.from__group-last {
+    border-right: 2px solid #ddd;
+}
+
+.searxh__icon {
+    font-size: 40px;
+    padding: 1px 6px;
+    border-radius: 20px 10px;
+    background-color: var(--secondary-color);
+    cursor: pointer;
+}
