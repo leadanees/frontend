@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import '../styles/home.css';
 import { Container, Row, Col } from "reactstrap";
 import heroImg from '../assets/images/hero-img01.jpg';
@@ -13,7 +13,11 @@ import experienceImg from '../assets/images/experience.png'
 import MasonaryImageGallery from "../components/imageFolder/MasonaryImageGallery";
 import Testimonials from "../components/Testimonial/Testimonials";
 import Newsletter from "../shared/Newsletter";
+import { customAxios } from "../AxiosHttp";
 const Home = () => {
+    useEffect(() => {
+        customAxios
+    },[])
     return (
         <>
             {/* ==============================hero section start================================= */}

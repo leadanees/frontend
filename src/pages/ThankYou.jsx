@@ -13,6 +13,9 @@ const ThankYou = () => {
                                 <span><i className="ri-checkbox-circle-line"></i></span>
                                 <h1>Thank You</h1>
                                 <h3>your tour has been booked</h3>
+                                <Button className="btn primary__btn w-25 mt-3">
+                                    <Link to='/home'>Back to Home</Link>
+                                </Button>
                             </div>
                         </Col>
                     </Row>

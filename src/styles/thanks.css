@@ -1,8 +1,15 @@
 .thank__you {
-    margin-left: 40%;
+    text-align: center; 
 }
 .thank__you span{
-    font-size: 10rem;
-    width: 25rem;
+    font-size: 5rem;
+    width: 10rem;
     color: rgb(134, 220, 6);
 }
+
+.thank__you h1{
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: var(--subtitle-font-name);
+}
+
